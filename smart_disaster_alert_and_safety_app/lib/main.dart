@@ -23,7 +23,7 @@ class _MainAppState extends State<MainApp> {
           backgroundColor: Colors.amberAccent,
         ),
         body: Center(
-          child: ElevatedButton(onPressed: () {}, child: Text('Click')),
+          child: ElevatedButton(onPressed: () {print( Text("HI"))}, child: Text('Click')),
         ),
         bottomNavigationBar: Container(
           height: 60,
